@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+.gerak {
+    margin-left: 10%;
+}
+
+.totop {
+    position: relative;
+    bottom: 50%;
+    margin: 5%;
+    display: flex;
+    left: -1000px;
+    width: 900px;
+    background-color: gold;
+}
+
+.texttop {
+    width: 700px;
+    height: 100px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+.texttop h1 {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.texttop p {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+}
+
+.kanan {
+    position: relative;
+    bottom: 50%;
+    margin: 5%;
+    display: flex;
+    right: -1400px;
+    width: 900px;
+    background-color: gold;
+}
+
+.kanan h1 {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.kanan p {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 960px) {
+    .gerak {
+        margin-left: -6%;
+        margin-bottom: 2.5%;
+    }
+    .totop {
+        position: relative;
+        bottom: 50%;
+        display: flex;
+        left: -960px;
+        width: 400px;
+        background-color: gold;
+        margin-right: 10%;
+    }
+    .texttop {
+        width: 300px;
+        height: 25px;
+        font-weight: bold;
+        margin-left: 2px;
+    }
+    .texttop h1 {
+        margin: 0%;
+        font-size: 120%;
+    }
+    .texttop p {
+        font-size: small;
+        margin: 0%;
+    }
+    .img {
+        width: 100px;
+        height: 100px;
+    }
+    .kanan {
+        position: relative;
+        bottom: 50%;
+        margin: 0%;
+        right: -960px;
+        width: 400px;
+        background-color: gold;
+    }
+    .kanan h1 {
+        margin: 0%;
+        margin-left: 3px;
+    }
+    .kanan p {
+        margin: 0%;
+        margin-left: 3px;
+    }
+}
+
+.beli {
+    position: relative;
+    align-items: center;
+    margin-left: 42%;
+    margin-bottom: 15px;
+    background-color: gold;
+}
+
+.beli a {
+    font-weight: bold;
+    color: black;
+    width: 150px;
+    align-content: center;
+}
+
+.beli:hover {
+    transform: scale(1.07);
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 960px) {
+    .beli {
+        margin-left: 25%;
+    }
+    .beli a {
+        font-weight: bold;
+        color: black;
+        width: 150px;
+        align-content: center;
+    }
+    .beli:hover {
+        transform: scale(1.07);
+        transition: all 0.3s ease;
+    }
+}
