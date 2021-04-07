@@ -354,8 +354,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     position: relative;
-    display: inline-block;
-    flex-direction: column;
+    float: left;
 }
 
 .footer-content h3 {
@@ -370,20 +369,12 @@ body {
     width: 100vw;
     padding: 20px 0;
     position: relative;
-    display: flex;
+    align-items: center;
 }
 
 .footercuy {
-    margin-left: 15%;
     text-align: center;
     position: relative;
-    display: inline-block;
-}
-
-.footer-bottom p {
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
     color: white;
 }
 
@@ -395,6 +386,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 1rem 0 1rem 0;
+    right: 20px;
 }
 
 .socials li {
